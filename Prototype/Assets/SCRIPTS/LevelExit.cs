@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class LevelExit : MonoBehaviour
+/*public class LevelExit : MonoBehaviour
 {
     public EndScreenAnim winScreen;
     private void OnTriggerEnter(Collider other)
@@ -15,3 +15,4 @@ public class LevelExit : MonoBehaviour
         }
     }
 }
+*/

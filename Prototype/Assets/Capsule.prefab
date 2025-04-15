@@ -14,9 +14,8 @@ GameObject:
   - component: {fileID: 6602566045021069231}
   - component: {fileID: 3777680452852389893}
   - component: {fileID: 644069736351096981}
+  - component: {fileID: 219791041921526322}
   - component: {fileID: 1827049312359886005}
-  - component: {fileID: 7763197328885773052}
-  - component: {fileID: 3149786745710439196}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Player
@@ -162,6 +161,22 @@ MonoBehaviour:
   hero: 
   direction: {x: 0, y: 0, z: 0}
   playerRb: {fileID: 1827049312359886005}
+--- !u!114 &219791041921526322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6714107101525861688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347467b40e0437147842f745ebad5dde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScore: 0
+  targetScore: 1
+  scoreText: {fileID: 0}
+  winScreen: {fileID: 0}
 --- !u!54 &1827049312359886005
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -189,32 +204,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &7763197328885773052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6714107101525861688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9fa73389968c13488e479f37a67e1bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
---- !u!114 &3149786745710439196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6714107101525861688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 566cc32e7f11028448ba709444cc634b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points: 5
-  respawnPosition: {x: 0, y: 0, z: 0}
-  healthText: {fileID: 0}
-  gameOverScreen: {fileID: 0}

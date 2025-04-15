@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-
+/*
 public class PlayerCollection : MonoBehaviour
 {
 
@@ -12,18 +12,19 @@ public class PlayerCollection : MonoBehaviour
 
     private void  OnTriggerEnter(Collider other)
     {
-        //only destroy if collectable
         if (other.CompareTag("Collectable"))
         {
             AddScore(1);
-            Destroy(other.gameObject);
-        } 
-    
+        }
     }
-    private void AddScore(int points)
+       
+private void AddScore(int points)
         { 
             score += points;
             scoreText.text = $"<b>Score: </b> {score}";
         }
+             
+
 
 }
+*/
