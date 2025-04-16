@@ -19,11 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
-    {
-        Debug.Log("My name is " + hero);
-    }
-
+    
     // Update is called once per frame
     //FixedUpdate is specifically best for physics loop
 
