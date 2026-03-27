@@ -10,8 +10,6 @@ public class PlayerMovement : MonoBehaviour
         bool isAlive = true;*/
     public float speed = 4.5f;
     public float jumpForce = 5;
-    //float is used for numbers with a decimal 
-    public string hero = "Oob";
 
     //xyz coord
     public Vector3 direction;
